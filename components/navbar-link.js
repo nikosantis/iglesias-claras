@@ -19,6 +19,7 @@ export default function NavbarLink ({ children, href }) {
               color: #888;
               padding-top: 10px;
               padding-bottom: 10px;
+              font-size: 0.875rem;
 
               &.active {
                 color: #fff;

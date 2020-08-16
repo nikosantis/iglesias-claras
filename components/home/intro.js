@@ -1,5 +1,6 @@
 import Container from '../container'
 import Search from './search'
+import TotalChurches from './total'
 
 export default function Intro () {
   return (
@@ -15,6 +16,7 @@ export default function Intro () {
             Encuentra una <strong>iglesia verificada y clara</strong> cerca tuyo
           </h2>
           <Search />
+          <TotalChurches />
         </div>
       </Container>
 
@@ -22,6 +24,7 @@ export default function Intro () {
         {`
           main {
             width: 100%;
+            min-height: calc(100vh - var(--igs-header-height));
           }
           .intro {
             padding: 80px 0;
